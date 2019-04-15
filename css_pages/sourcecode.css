@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed');
+header{
+    
+    top: 0;
+    left: 0;
+}
+.container{
+    margin: 2rem;
+}
+.container .foramted{
+    display: flex;
+    align-items: center;
+}
+
+.jumbotron > h4{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.alignform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image_wrap .image_slide{
+    background: url(../image/suvra.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+    /*border: 1px solid black;*/
+    border-radius: 50%;
+    box-shadow: 0 2px 3px 0px black;
+}
+.image_wrap .image_slide > p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}

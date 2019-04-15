@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        font-family:  'Roboto', sans-serif;
+    }
+   
+    .jumbotron{
+        padding: 2rem !important;
+    }
+    .carousel_heading{
+        position: relative;
+    }
+    .carousel_heading .carousel_title{
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        color: #a0d8db;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    .carousel_heading2 .carousel_title{
+        position: absolute;
+        top: 40%;
+        left: 15%;
+        color: #3262ca;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    .carousel_heading3 .carousel_title{
+        position: absolute;
+        top: 20%;
+        left: 15%;
+        color: #ABCCBA;
+        font-weight: 800;
+        font-size: 3rem;
+    }
+    .high{
+        width: 100%;
+        height: 298px;
+    }
+    .hr_line{
+        color: #aca5a5;
+        width: 80%;
+        border-bottom: 2px solid #aca5a5;
+    }
+    .socail_app{
+        margin-left: 3rem;
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        text-align: center;
+        list-style: none;
+    }
+    .conection{
+        text-align: center;
+        font-weight: bold;
+        padding-top: 2rem;
+    }
+    .fab{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    .fa-facebook{
+        color: #4a4af1;
+    }
+    .fa-twitter-square{
+        color: #3887ee;
+    }
+    .fa-github-square{
+        color: gray;
+    }
+    .fa-google-plus-square{
+        color: #e94c25;
+    }
+    .app_list .pera{
+        font-weight: 600;
+        text-decoration: none;
+        color: #a084dfbe;
+    }
+    .app_list .pera:hover{
+        color: gray;
+    }
+    footer{
+        padding: 2rem;
+        background: linear-gradient(to top,rgba(90, 201, 235, 0.4) 100%, transparent), url('./image/freedom.jpg') left 10% bottom 60%/cover no-repeat border-box,#ff4545;
+        color: aliceblue;
+    }
+    .footer_link>a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .footer_link>a:hover{
+        color: aliceblue;
+        text-decoration: none;
+    }
+    .footer_link .light{
+        border-bottom: 1px solid aliceblue;
+    }
