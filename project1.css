@@ -86,7 +86,7 @@
     }
 
     @media (max-width: 40rem){
-        ..socail_app{
+        .socail_app{
              display: flex;
              flex-direction: column; 
              margin-left: 0;  
