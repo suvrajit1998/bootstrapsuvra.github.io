@@ -86,10 +86,10 @@
     }
 
     @media (max-width: 40rem){
-        .socail_app{
-             display: grid;
-             align-content: center;
-            margin-left: 0;
+        ..socail_app{
+             display: flex;
+             flex-direction: column; 
+             margin-left: 0;  
         }
     }
     footer{
